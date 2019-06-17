@@ -5,6 +5,10 @@ export class PracticeTypeRepository implements IPracticeTypeRepository {
 
     private _practiceTypes: PracticeType[] = [];
 
+    constructor() {
+        this._practiceTypes = [{id: 'Facility', name: 'Health Facility'}];
+    }
+
     get(): PracticeType[] {
         return this._practiceTypes;
     }
@@ -12,5 +16,4 @@ export class PracticeTypeRepository implements IPracticeTypeRepository {
     save(practiceType: PracticeType): void {
         this._practiceTypes.push(practiceType);
     }
-
 }
