@@ -1,0 +1,33 @@
+{
+  "name": "@afyajs/practicejs",
+  "version": "0.1.0",
+  "description": "practicejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afyajs/practicejs.git"
+  },
+  "author": "Koske Kimutai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afyajs/practicejs/issues"
+  },
+  "homepage": "https://github.com/afyajs/practicejs#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "@types/express": "^4.17.0",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
